@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: ef9ab81c807ac8646b448f1eba0bc299, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: a34e6b4ec6e6f604aace8727b0ceb61f, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -447,13 +447,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.69737476, z: -0, w: 0.71670663}
-  m_LocalPosition: {x: 10.27, y: 3.22, z: -0.153}
+  m_LocalRotation: {x: 0.08008971, y: -0.69276094, z: 0.08230983, w: 0.7119642}
+  m_LocalPosition: {x: 12.015, y: 7.15, z: -0.153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -88.434, z: 0}
+  m_LocalEulerAnglesHint: {x: 13.184, y: -88.391, z: 0.367}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -687,7 +687,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -876,7 +876,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &476709398
 Transform:
   m_ObjectHideFlags: 0
@@ -1073,9 +1073,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7097069802641366057, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4442478604666056186, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1847865256029487178, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -674449036139524865, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -166551934493659324, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
       propertyPath: m_Name
       value: DungeonAssets
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3014196641783012769, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4121032810353950534, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151866217149320970, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303844335903649258, guid: 83c93373e07155e4b9daffb1a6b16c47, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1109,7 +1149,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &743508596
 Transform:
@@ -1607,7 +1647,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1398099009
 Transform:
